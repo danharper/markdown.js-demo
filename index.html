@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf8">
+	<title>Backbone Markdown</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/markdown.js"></script>
+	<script src="js/app.js"></script>
+
+</head>
+<body class="container-fluid">
+
+	<div class="row-fluid">
+		<div class="span12">
+			<p>
+				<a href="https://github.com/danharper/Backbone-Markdown">Get the source!</a>
+				by <a href="http://danharper.me">Dan Harper</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="row-fluid">
+		<div class="span6" id="editor-wrap">
+			<button>Fill In Dummy Data</button>
+			<textarea class="span7" autofocus></textarea>
+		</div>
+		<div class="span6" id="viewer"> </div>
+	</div>
+
+<script type="text/x-template" id="dummy-data">
+# Let's get started!
+
+Hey! __bold__ and _italic_ and `code` [and links](http://danharper.me) and images:
+
+![](http://danharper.me/img/logo.png)
+
+How *__awesome__* is that?!
+
+Blockquotes, too:
+
+> blockquote
+
+And some code blocks:
+
+    <?php
+    $fruits = array( 'Apple', 'Pear', 'Banana' );
+
+## Header 2
+### Header 3
+#### Header 4
+etc.
+</script>
+
+</body>
+</html>
